@@ -1,0 +1,35 @@
+.myclass {
+    list-style-type: none;
+    color:black;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+    
+  }
+  .navbarclass{
+    color: black;
+    background-color: aqua;
+    font-weight: bold;
+    display: flex;
+    justify-content: center
+    
+  }
+  .MenuPage{
+    background-image: url("./MenuPagebaground.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .vendorlist{
+
+    color: black;
+    background-color: coral;
+    font-weight: bold;
+    display: flex;
+    justify-content: baseline
+  }
+  
