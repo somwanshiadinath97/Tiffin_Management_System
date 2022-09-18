@@ -56,8 +56,8 @@ function App() {
     <Route path="/Aboutus" element={<Aboutus/>}/>
     <Route path="/AddDeliveryBoy" element={<AddDeliveryBoy/>}/>
     <Route path="/AdminTiffin" element={<Admintiffin/>}/>
-<Route path="/AdminDeliveryAddrees" element={<AdminDeliveryManagement/>}/>
-<Route path="/AddressList" element={<DeliveryAddressList/>}/>
+   <Route path="/AdminDeliveryAddrees" element={<AdminDeliveryManagement/>}/>
+   <Route path="/AddressList" element={<DeliveryAddressList/>}/>
     <Route path="/tiffin" element={<AddTiffin />} />
           <Route path="/showTiffin" element={<ShowTiffins />} />
           <Route path="/order" element={<Orders />} />
