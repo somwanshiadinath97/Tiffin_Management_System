@@ -153,7 +153,8 @@ public TiffinDetail toTiifinDetail(TiffinDetailDto dto) {
 	TiffinDetail entity = new TiffinDetail();
 	entity.setTiffinId(dto.getTiffinId());
 	entity.setTiffinName(dto.getTiffinName());
-	entity.setTiffinImage(null);
+	//entity.setTiffinImage(null);
+	entity.setTiffinImage(dto.getTiffinImage());
 	entity.setTiffinPrice(dto.getTiffinPrice());
 	entity.setDescription(dto.getDescription());
 	return entity;
