@@ -1,4 +1,4 @@
-import Footcomponent from '../../Components/footer'
+import Footer from '../../Components/footer'
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import Slider from '../../Components/slider'
@@ -51,7 +51,7 @@ const Home=()=>{
 <br/>
 <br/>
 <div>
-  <Footcomponent />
+  <Footer />
 </div>
         </div>
     )

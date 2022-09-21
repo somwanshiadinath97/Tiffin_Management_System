@@ -35,14 +35,14 @@ const Signin = () => {
         const result = response.data
         console.log(result)
         if (result['data'] !=null) {
-          // toast.success('Welcome to the application')
+           toast.success('Welcome to the application')
 
           // get the data sent by server
           const { userId } = result['data']
 
           // persist the logged in user's information for future use
           sessionStorage['id'] = userId
-        console.log(     sessionStorage['id'] )
+        console.log(sessionStorage['id'] )
           sessionStorage['loginStatus'] = 1
 if(result['data'].role=='admin')    navigate('/Admin')
 else if(result['data'].role=='delivery') {

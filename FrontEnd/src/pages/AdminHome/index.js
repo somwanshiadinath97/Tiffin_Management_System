@@ -4,6 +4,7 @@ import DaywiseOrder from "../../Components/DaywiseOrder";
 import { Link } from 'react-router-dom'
 import { useNavigate } from "react-router";
 import "./index.css";
+import { toast } from "react-toastify";
 const AdminHome = () => {
   const [daywiseOrder, setdayWiseorder] = useState([]);
   const [daywisedispatched,setdaywisedispatched]=useState([]);
@@ -53,13 +54,14 @@ const AdminHome = () => {
   const navigate = useNavigate()
   const Logout=()=>{
     sessionStorage['id'] = null
-    console.log(     sessionStorage['id'] )
+    console.log(sessionStorage['id'] )
       sessionStorage['loginStatus'] = null;
       navigate('/signin')
   }
 
   useEffect(() => {
     if(sessionStorage['loginStatus'] == 1){
+     // toast.success("welcome to the Admin Dashboard");
       console.log(`${sessionStorage['loginStatus']}`)
     GetPendingOrders();
     GetDispatched()

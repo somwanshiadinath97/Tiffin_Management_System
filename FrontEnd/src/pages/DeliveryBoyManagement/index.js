@@ -41,16 +41,12 @@ const DeliveryBoyManagement=()=>{
     <div class="col-10">
         <table class="table  table-dark table-striped">
 
-
-
-
         <thead class="table-primary">
             <th>userId</th>
             <th>userName</th>
             <th>Email</th>
             <th>Phone</th>
             <th>Adhar</th>
-            
             <th>Delete</th>
             </thead>
             <tbody>

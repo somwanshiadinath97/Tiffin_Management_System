@@ -52,7 +52,7 @@ else{
        
     }
     useEffect(()=>{
-      toast.info("Welcome to Foodies")
+      toast.info("Welcome to E-dabba")
     },[])
     return (
         <div style={{backgroundColor:"aliceblue",paddingBottom:300}}>
