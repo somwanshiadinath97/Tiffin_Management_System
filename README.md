@@ -21,4 +21,5 @@
 	<li>Run command "npm start" on terminal.</li>
 	<li>You will be on home page of E-Dabba.</li>
 	<li>Project ready to use.</li>
+	<li>You can take reference of Screenshots of running pages provided in screenshot folder.</li>
 </ol>
